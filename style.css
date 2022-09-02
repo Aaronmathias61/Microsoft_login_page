@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima",
+    "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI",
+    "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha",
+    "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic",
+    "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue",
+    "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti",
+    "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+}
+ 
+body {
+  background: linear-gradient(
+    135deg,
+    #f4d4c7 0%,
+    rgba(231, 235, 241, 1) 60%,
+    rgba(235, 222, 197, 1) 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.headlogo {
+  height: 26px;
+  width: auto;
+  background-size: cover;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+}
+.flex-container {
+  line-height: 31px;
+  margin: 12.5% 35% 1.5% 35%;
+  padding: 41px 40px 43px 43px;
+  height: 250px;
+  width: 24.5%;
+  box-shadow: 0px 0px 3px 1px #c3c3c3;
+}
+.h:hover {
+  text-decoration: underline;
+  color: #464646;
+}
+.h{
+  padding-top: 10px;
+}
+.question {
+  padding-top: 15px;
+  height: 15px;
+  width: 15px;
+  align-self: center;
+}
+input {
+  line-height: 2.5 !important;
+  outline: none;
+  width: 100%;
+  padding: 5px 0px 4px 0px;
+  margin: 6px 0;
+  font-size: 15px !important;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #464646;
+}
+input:hover {
+  border-bottom: 1.5px solid black;
+}
+a {
+  text-decoration: none;
+  color: #0067b8;
+}
+div,
+a,
+input,
+li,
+ul,
+b,
+img,
+nobr {
+  background-color: white !important;
+}
+button {
+  border-radius: 1px;
+  background-color: #0067b8;
+  border: none;
+  color: white;
+  padding: 4.5px 37px;
+  text-align: center;
+  font-size: 16px;
+}
+.key {
+  width: 35px;
+  height: 35px;
+}
+hr {
+  background-color: rgb(0, 115, 254);
+}
+#sec {
+  margin: 0% 35% 2% 35%;
+  padding: 5px 40px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+}
+.btn:hover {
+  background-color: rgb(0, 72, 207);
+  cursor: pointer;
+  opacity: 1.2;
+}
+.footer {
+  font-size: 12px !important; 
+  padding-right: 5px;
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+  float: right;
+  right: 0;
+}
+.flex-container1 {
+  line-height: px;
+  display: flex;
+  width: 25%;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 0px 5px 1px #c3c3c3;
+  margin: 12.5% 35% 1.5% 35%;
+  padding: 0px 43px 0px 43px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px !important;
+}
+.u:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#sec:hover{
+  opacity: .7;
+}
+
+.key {
+  height: 40px;
+  width: 40px;
+  padding-top: 4px;
+}
+.btn {
+  position: absolute;
+  float: right;
+  top: 55%;
+  right: 38%;
+}
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+ol {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+}
+.question:hover, .h:hover,.btn:hover{
+  cursor: pointer;
+}
+#sec:hover{
+  cursor: pointer;
+}
